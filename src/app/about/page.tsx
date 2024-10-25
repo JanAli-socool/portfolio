@@ -22,7 +22,7 @@ function About() {
                 <Grid container columnSpacing={{ xs: 1, sm: 2, md: 2, lg: 3 }}>
                     <Grid item lg={4} md={4} xs={12} order={{ xs: 2, md: 1, lg: 1}}>
                       <div className={`${style.leftSideContent} bg-theme`}>
-                      <Image src="/profile.jfif" alt="my image" width={200} height={180} className={style.logo} />                     
+                      <Image src="/profile.png" alt="my image" width={200} height={180} className={style.logo} />                     
                         <h3>Jan Ali Kazmi 
                           <span>Senior Software Engineer</span>
                         </h3>
