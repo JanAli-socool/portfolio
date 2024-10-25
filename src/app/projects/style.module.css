@@ -1,0 +1,229 @@
+.projects{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+.projects .InnerBox{
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+
+.projects .InnerBox:hover{
+    background: #F1F1F1;
+}
+
+
+
+
+.projects .InnerBox ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.projects .InnerBox h4{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0 0;
+    font-family: "Roboto";
+}
+
+.projects .InnerBox p{
+    font-family: "Roboto";
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #65656d;
+    line-height: 24px;
+}
+
+
+.viewProjectBtn a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+    font-family: "Roboto";
+    color: #000;
+    font-size: 13px;
+}
+
+
+.viewProjectBtn a svg{
+    width: 20px;
+    height: 20px;
+    rotate: -30deg;
+}
+
+.innerContent{
+    padding: 20px ;
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+@media (max-width: 900px) {
+    .innerContent{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.innerContent h1{
+    font-family: "Roboto";
+    color:  #27272a;
+    padding: 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+
+}
+
+
+.innerContent p {
+    font-family: "Roboto";
+    color: #65656d;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.innerContentDetail h1{
+    font-family: "Roboto";
+    text-align: center;
+    padding: 20px 0 10px;
+
+}
+
+.innerContentDetail > p{
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 21px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    padding: 10px 0 30px;
+    width: 60%;
+    margin: auto;
+}
+
+
+.detailing{
+    font-family: "Roboto";
+    margin: 20px 0 ;
+    padding: 20px;
+}
+
+
+.detailing h4{
+    color: #00bcd4;
+    padding-bottom: 10px;
+}
+
+.detailing p {
+    padding-bottom: 10px;
+}
+
+
+.detailing  img{
+    margin: 10px;
+}
+
+.detailing a {
+    font-size: 14px;
+
+}
+
+
+.innerHeaderImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+ 
+
+
+.btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 0;
+}
+
+.btn a {
+    font-family: "Roboto";
+}
+
+
+
+
+
+
+
+
+
+
+.contactMe{
+    text-decoration: none;
+}
+
+.contactMe button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: gainsboro;
+    border-radius: 30px;
+    padding: 12px 45px 14px 45px;
+    color: #302b2b;
+    font-size: 15px;
+    margin-top: 10px;
+    gap: 5px;
+    margin: 15px 15px 25px ;
+    font-family: "Roboto";
+    transition: 0.5s;
+}
+
+.contactMe button:hover{
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+.custom_flex{
+    display: flex;
+    
+}

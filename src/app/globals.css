@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: pink;
+    color: white;
+}
+
+body.dark-mode ::selection {
+    background-color: #00bcd4;
+    color: white;
+}
+
+
+body{
+    background-color: #fafafa;
+}
+header{
+    padding: 15px  0;
+}
+
+
+body.dark-mode{
+    background-color: #141A1F;
+}
+
+
+body.dark-mode  h3.heading,
+body.dark-mode  h1{
+    color: #fffffa !important;
+}
+
+
+body.dark-mode  p{
+    color: #F5F5F5 !important;
+}
+
+
+
+body.dark-mode button.inner-theme{
+    color: #fff;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+/* Track */
+
+::-webkit-scrollbar-track {
+	background: #ffffff ;
+}
+/* Handle */
+
+
+::-webkit-scrollbar-thumb {
+	background: #aeaeae;
+    border-radius: 20px;
+  
+}
+
+body.dark-mode::-webkit-scrollbar-thumb {
+	background: #00bcd4;
+  
+}
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
+
+
+
+
+.bg-theme{
+    background: #f4f4f4;
+    transition: 0.5s;
+}
+
+
+body.dark-mode  .bg-theme{
+    background: #111111
+}
+
+body.dark-mode  .bg-theme a{
+    color: #b7b4b4;
+}
+
+
+body.dark-mode  .bg-theme h4,
+body.dark-mode  .bg-theme h3{
+    color: #fff;
+}
+body.dark-mode  .bg-theme label{
+    color: #fff;
+}
+
+body.dark-mode  .bg-theme .inner-theme{
+    background: #141a1f;
+    transition: 0.5s;
+
+}
+
+body.dark-mode  .bg-theme input{
+    color: #f4f4f4;
+    font-size: 14px;
+}
+
+body.dark-mode .bg-theme .inner-theme a{
+    color: #fff;
+}
+
+
+body.dark-mode .bg-theme:hover{
+    background: #0b0e11;
+}
+
+
+
+a.active{
+    color: #00bcd4 !important;
+}
+

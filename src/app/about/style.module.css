@@ -1,0 +1,173 @@
+.aboutMe .leftSideContent{
+    text-align: center;
+    position: relative;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.leftSideContent img{
+    position: relative;
+    top: -40px;
+}
+
+.leftSideContent h3{
+    color: #000;
+    font-weight: 500;
+    font-family: "Roboto";
+    padding-bottom: 30px;
+}
+
+.leftSideContent h3 span{
+    display: block;
+    padding-top: 5px;
+    font-weight: 300;
+    color: rgb(168, 168, 168);
+    font-family: "Roboto";
+}
+
+
+.leftSideContent  .followOn{
+    background: #dcdcdc;
+    margin: 0 15px;
+    padding: 15px ;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+
+.followOn a{
+    display: flex;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Roboto";
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+
+
+.followOn a:hover{
+    letter-spacing: 1px;
+}
+
+
+
+
+
+.followOn a svg{
+    background: #fff;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.followOn a:not(:last-child){
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+
+
+
+.followOn a:nth-child(1) svg{
+    color: #0077B5;
+}
+
+
+.followOn a:nth-child(5) svg,
+.followOn a:nth-child(2) svg{
+    color: #171515;
+}
+
+.followOn a:nth-child(3) svg{
+    color: #0077B5;
+}
+
+.followOn a:nth-child(4) svg{
+    color: #D23675;
+}
+
+
+
+.rightSideContent{
+    margin-top: 30px;
+    padding: 20px 20px 60px;
+    border-radius: 10px;
+
+}
+
+.rightSideContent h3{
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+.downloadCv a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    background: gainsboro;
+    border-radius: 30px;
+    padding: 6px 25px 6px 20px;
+    color: #302b2b;
+    gap: 5px;
+    font-family: "Roboto";
+    transition: 0.5s;
+    width: 60%;
+}
+
+.contactMe{
+    text-decoration: none;
+}
+
+.contactMe button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: gainsboro;
+    border-radius: 30px;
+    padding: 12px 45px 14px 45px;
+    color: #302b2b;
+    font-size: 15px;
+    margin-top: 10px;
+    gap: 5px;
+    font-family: "Roboto";
+    transition: 0.5s;
+}
+
+.contactMe button:hover,
+.downloadCv a:hover{
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+.rightSideContent p{
+    font-family: "Roboto";
+    padding: 20px 0 10px;
+    line-height: 30px;
+}
+
+
+
+
+/* 
+.rightSideContent h3::after{
+    position: absolute;
+    content: "";
+    top: 48%;
+    left: 130px;
+    width: 100px;
+    background: #00bcd4;
+    height: 3px;
+} */
